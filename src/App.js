@@ -1,11 +1,10 @@
+import { Auth } from '/Users/user/Desktop/firebase-course/src/components/auth.js';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        David 
-      </h1>
-    </div>
+      <Auth />
+      </div>
   );
 }
 
