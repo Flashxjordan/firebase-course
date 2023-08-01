@@ -1,3 +1,5 @@
+import { auth } from '../config/firebase';
+
 export const Auth = () => {
     return (
         <div>
