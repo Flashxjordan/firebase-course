@@ -5,6 +5,28 @@
   
 }
 
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px!important; /* Adjust the value to increase or decrease the vertical spacing */
+}
+
+/* Optional: If you want horizontal centering, you can add the following */
+.auth-container {
+  align-items: center;
+}
+
+.google {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adjust the value to increase or decrease the vertical spacing */
+}
+
+/* Optional: If you want horizontal centering, you can add the following */
+.google{
+  align-items: center;
+}
+
 
 
 @media (prefers-reduced-motion: no-preference) {

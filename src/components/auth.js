@@ -15,7 +15,7 @@ export const Auth = () => {
     };
 
     return (
-        <div>
+        <div className='email'>
             <input 
                 placeholder="Email..." 
                 onChange={(e) => setEmail(e.target.value)}/>
